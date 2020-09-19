@@ -55,7 +55,7 @@ public:
      * @brief A destructor used to delete the <b>CameraAbility</b> instance.
      *
      */
-    virtual ~CameraConfig() {}
+    virtual ~CameraConfig() = default;
 
     /**
      * @brief Creates the <b>CameraConfig</b> instance of this singleton class to configure
@@ -98,7 +98,7 @@ protected:
      * @brief A constructor used to create a <b>CameraConfig</b> instance.
      *
      */
-    CameraConfig() {}
+    CameraConfig() = default;
 };
 } // namespace Media
 } // namespace OHOS
