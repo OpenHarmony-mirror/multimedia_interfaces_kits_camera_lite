@@ -14,7 +14,7 @@
  */
 
 /**
- * @addtogroup MuiltiMedia_CameraDeviceCallback
+ * @addtogroup MultiMedia_CameraDeviceCallback
  * @{
  *
  * @brief Defines the <b>CameraDeviceCallback</b> class to response to device changes.
